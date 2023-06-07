@@ -1,4 +1,13 @@
-### Hi there 👋
+### Hey, My name is Reginald F. Johnson! 👋
+
+Reginald F. Johnson, IT Systems Engineer, AWS & Azure Certified. 
+
+Background in: IT Support, System Administration, Network Engineering, Enterprise Servers, Powershell Scripting.
+
+Please feel free to connect with me. Always willing to share knowledge 
+
+### ✨ Connect with me on Instagram! 😊 ✨
+You can find a lot of my content on [my Instagram page](https://www.instagram.com/officialreginaldfjohnson/) and you can get in touch with me on [Twitter](https://twitter.com/reggiejohnson86). You can also connect with me on [LinkedIn](http://linkedin.com/in/rjohnson46) or [send me an email](mailto:reginald.f.johnson@gmail.com).
 
 <!--
 **rjohnson46/rjohnson46** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
