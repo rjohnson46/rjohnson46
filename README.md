@@ -1,8 +1,8 @@
 ### Hey, My name is Reginald F. Johnson! 👋
 
-Reginald F. Johnson, IT Systems Engineer, AWS & Azure Certified. 
+Reginald F. Johnson, IT Systems Engineer, AWS, Azure, GCP Certified. 
 
-Background in: IT Support, System Administration, Network Engineering, Enterprise Servers, Powershell Scripting.
+Background in: IT Support, System Engineering, Network Engineering, Enterprise Servers, Powershell Scripting, Python Scripting
 
 Please feel free to connect with me. Always willing to share knowledge 
 
