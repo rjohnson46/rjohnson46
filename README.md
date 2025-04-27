@@ -2,7 +2,7 @@
 
 Reginald F. Johnson, Cloud/DevOps Engineer, AWS, Azure, & GCP Certified. 
 
-Background in: IT Support, System Engineering, Network Engineering, Enterprise Servers, Powershell Scripting, Python Scripting
+Background in: IT Support, System Engineering, Network Engineering, Windows & Linux Enterprise Servers, Powershell/BASH Scripting, & ANSIBLE 
 
 Please feel free to connect with me. Always willing to share knowledge 
 
