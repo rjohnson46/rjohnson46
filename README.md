@@ -6,9 +6,7 @@ Background in: IT Support, System Engineering, Network Engineering, Enterprise S
 
 Please feel free to connect with me. Always willing to share knowledge 
 
-- 🌱 I’m currently learning ...
-      -DOCKER/KUBERNETES
-      -PYTHON
+- 🌱 I’m currently learning ... DOCKER, KUBERNETES, & PYTHON
 
 ### ✨ Connect with me on Instagram! 😊 ✨
 You can find a lot of my content on [my Instagram page](https://www.instagram.com/officialreginaldfjohnson/) and you can get in touch with me on [Twitter](https://twitter.com/reggiejohnson86). You can also connect with me on [LinkedIn](http://linkedin.com/in/rjohnson46) or [send me an email](mailto:reginald.f.johnson@gmail.com).
