@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reginald F. Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8; /* Light background */
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            color: #2c3e50; /* Darker heading color */
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        header p {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-bottom: 0;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h2 {
+            color: #34495e; /* Dark heading for sections */
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0; /* Light border */
+            padding-bottom: 10px;
+        }
+        section h3 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-left: 0;
+        }
+        ul li::before {
+            content: '•';
+            color: #3498db; /* Accent color */
+            margin-right: 10px;
+        }
+        ul li {
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+            color: #555;
+        }
+        .date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            float: right;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skills-list li {
+            background-color: #e0f7fa; /* Very light background for skills */
+            color: #00897b; /* Darker teal for text */
+            padding: 8px 15px;
+            border-radius: 20px; /* Fully rounded corners */
+            font-size: 1em;
+            border: 1px solid #b2dfdb;
+        }
+         .project-list li{
+            margin-bottom: 25px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            section h2 {
+                font-size: 1.5em;
+            }
+            .skills-list li {
+                font-size: 0.9em;
+                padding: 6px 12px;
+            }
+            .date{
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Reginald F. Johnson</h1>
+            <p>Cloud Systems Engineer</p>
+        </header>
+
+        <section>
+            <h2>EDUCATION</h2>
+            <p><strong>FORDHAM UNIVERSITY, BRONX, NY</strong><br>Bachelors of Science Computer Science, 2015</p>
+        </section>
+
+        <section>
+            <h2>CERTIFICATIONS</h2>
+            <ul>
+                <li>AWS Solutions Architect Associate, Obtained March 2022</li>
+                <li>Microsoft Azure Fundamentals, Obtained April 2023</li>
+                 <li>Microsoft Azure Administrator Associate, Obtained Jan 25</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>TECHNICAL PROFICIENCIES</h2>
+            <ul class="skills-list">
+                <li>Azure Active Directory</li>
+                <li>Amazon Web Services</li>
+                <li>Python Scripting</li>
+                <li>Office 365</li>
+                <li>Nutanix Enterprise Cloud</li>
+                <li>DataDog</li>
+                <li>Powershell Scripting</li>
+                <li>VMware</li>
+                <li>InsightIDR</li>
+                 <li>Bash Scripting</li>
+                <li>Microsoft Azure</li>
+                <li>Google Cloud Platform</li>
+                <li>Crowdstrike Falcon</li>
+                <li>Ubuntu Linux/Red Hat Linux</li>
+                <li>Nimble SAN Storage</li>
+                <li>Ansible Automation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>PROFESSIONAL EXPERIENCE</h2>
+            <article>
+                <h3>Jack Henry & Associates, Monett, Missouri<span class="date">March 2024 - Present</span></h3>
+                <p><strong>Azure Cloud Systems Engineer</strong></p>
+                <ul>
+                    <li>Orchestrated security and patch management for 500+ Windows Servers using Octopus Deploy CI/CD Tool, achieving 99.9% compliance with security standards and reducing system vulnerabilities by 75% through automated deployment pipelines.</li>
+                    <li>Designed and implemented automated certificate rotation system for the Windows Server environment, leveraging Jenkins for scheduled deployments and ensuring continuous website and server security compliance.</li>
+                    <li>Successfully led the migration of a server environment from Microsoft Azure to Google Cloud Platform (GCP), managing the end-to-end transition while ensuring continuous system functionality and minimizing downtime. Validated all services and applications were operating correctly post-migration.</li>
+                    <li>Implemented and supported RoyalTS (Virtualization), Windows, Linux, Active Directory (replication), Exchange, SAN, security solutions, including disaster recovery planning, firewall management, and automation via PowerShell/Bash/Python.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Southwest Power Pool, Little Rock, AR<span class="date">November 2023 - March 2024</span></h3>
+                <p><strong>Linux Systems Engineer</strong></p>
+                <ul>
+                    <li>In the role of an Engineering Team member, managed and enhanced a varied infrastructure encompassing Windows 2012-2019 Servers, Red Hat Linux Servers, VMware virtualization, & Active Directory.</li>
+                    <li>Utilized the Ansible Automation Platform to seamlessly upgrade roughly 400 Red Hat Linux servers. Facilitating the transition from RHEL 7 to RHEL 8. Additionally, responsible for troubleshooting all compatibility issues encountered during upgrades, spanning Application Verification & Installation, Security Patching, & Docker/Podman Compatibility.</li>
+                    <li>Created and managed Ansible Playbooks to automate configuration management tasks on Red Hat Linux systems, ensuring efficient operations. Conducted comprehensive testing and validation of Playbooks to ensure reliability and minimize errors. Offered troubleshooting and support for any issues related to Ansible Playbooks and automation workflows, ensuring seamless functionality.</li>
+                    <li>Ensured secure and reliable operation of critical systems including VMware, Windows, Linux, Active Directory (replication), Exchange, SAN, and firewalls, with expertise in disaster recovery, DNS, subnetting, DHCP, and automation using PowerShell.</li>
+                </ul>
+            </article>
+             <article>
+                <h3>Mercy Ships, Linvale, TX<span class="date">June 2023 - November 2023</span></h3>
+                <p><strong>Systems Engineer</strong></p>
+                <ul>
+                    <li>In the role of an Engineering Team member, managed and enhanced a varied infrastructure encompassing Windows 2012/2016 Servers, Ubuntu & Red Hat Linux Servers, VMware virtualization, Active Directory, and MS SQL databases.</li>
+                    <li>Established, configured, & oversaw Linux Servers comprehensively through Ansible-driven automation. Employed the Ansible Core Automation tool to address security vulnerabilities through patching and execute Python Scripts, Bash Scripts, & Ansible Playbooks seamlessly.</li>
+                    <li>Managed a substantial network of more than 400 Windows Servers. Implemented security measures, including the application of patches to address vulnerabilities. Leveraged a combination of Windows Server Update Services (WSUS), Group Policy Objects (GPOs), and PowerShell scripts to facilitate seamless and efficient patch management.</li>
+                    <li>Tasked with orchestrating the seamless migration of our on-premises datacenter infrastructure into the Cloud, leveraging Microsoft Azure. Was responsible for designing the migration strategy, assessing compatibility, executing data transfers, reconfiguring architecture where necessary, and conducting comprehensive testing to guarantee the reliability and functionality of the newly cloud-hosted setup.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Mary Ann Liebert Publishing, New Rochelle, NY<span class="date">May 2018 - June 2023</span></h3>
+                 <p><strong>Systems Engineer</strong></p>
+                <ul>
+                    <li>As a lead member of the Engineering Team, oversaw the management and optimization of a diverse infrastructure consisting of Windows 2012/2016 and MAC OS systems, VMware virtualization, Administering & physically installing Nimble SAN Storage, Active Directory, MS SQL databases, Office 365, Windows 10 Workstations, Internet Information Services (IIS), and Amazon Web Services.</li>
+                    <li>Migrated IT Infrastructure from ON-PREMISES into the Cloud using Amazon Web Services. Implemented AWS WAF (Web Application Firewall) to ensure secure access to the company WordPress Dashboard.</li>
+                    <li>Managed organizational units in Active Directory (AD) by developing and implementing group policies to ensure secure user access and system integrity, while also maintaining email addresses, distribution lists, and licenses in Microsoft Office 365/Azure Active Directory to safeguard company data.</li>
+                    <li>Designed & execute automation strategies for infrastructure deployment and management, leveraging the power of PowerShell, Bash, & Python scripting languages.</li>
+                    <li>Efficiently managed and provided technical support for a complex Azure cloud infrastructure spanning multiple regions and business units, overseeing critical components such as Azure Active Directory, Virtual Networks, Load Balancers, & SQL databases.</li>
+                    <li>Provided technical support for Azure cloud infrastructure, Microsoft 365, Microsoft Teams, SharePoint Online, and other cloud services, ensuring the timely resolution of incidents and maintaining high levels of user satisfaction.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Acorda Therapeutics, Ardsley, NY<span class="date">November 2016 - March 2018</span></h3>
+                <p><strong>Systems Administrator</strong></p>
+                <ul>
+                    <li>Proficient in installation, configuration, and administration of VMware ESXi, Windows Server, and Linux environments.</li>
+                    <li>Provided production support for Active Directory, Domain Users, Users & Groups, User Permissions, Group Policies, Network Shares, & privilege access to VPN, LAN, and Domain environment, ensuring the smooth operation of the company's IT infrastructure.</li>
+                    <li>Developed and implemented Bash/Powershell shell scripts for group and user administration, system startup and shutdown, and other system-related tasks.</li>
+                    <li>Created & maintain email addresses & distribution lists in Active Directory/Microsoft Exchange ON-PREM.</li>
+                    <li>Provided expert-level technical support to over 600 end-users across multiple locations, troubleshooting and resolving issues with Windows 7/10 and Mac OS systems.</li>
+                </ul>
+            </article>
+            <article>
+                 <h3>United States Army, Fort Huachuca, AZ<span class="date">Oct 2004 – Nov 2011</span></h3>
+                <p><strong>Command Post Node Systems Administrator</strong></p>
+                <ul>
+                    <li>Supervised a team of 10 Soldiers in providing network support including troubleshooting and customer complaints to an organization of 500 personnel which increased overall productivity by approximately 30%.</li>
+                    <li>Identified and implemented technical development utilizing tools, education and 3rd party resources resulting in 65% higher output from developers on my team.</li>
+                    <li>Successfully managed and developed a maintenance plan for over 170 network devices that decreased equipment faults by 50% and compliant to standards set by the National Security Agency and Army Land War Net allowing to perform at high levels of security.</li>
+                    <li>Provisioned Cisco Routers and Switches for use in providing Secure and Unsecured VoIP and Data communications.</li>
+                    <li>Performed administrative functions by providing over 200 user and email accounts through Active Directory and Exchange Server 2003.</li>
+                    <li>Responsible for government equipment in excess of $1,500,000 including a Satellite Tactical Terminal Ku Band system.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>HANDS-ON PROJECTS</h2>
+             <ul>
+                <li>Designed and Implemented a cost-effective, highly available, and fault-tolerant architecture for a web application on AWS, leveraging services like EC2, S3, RDS, and CloudFormation.</li>
+                 <li>Developed a Python script to automate the backup and restoration of critical databases, reducing manual effort and ensuring data durability.</li>
+                 <li>Configured and managed CI/CD pipelines using Jenkins and Git, enabling automated testing and deployment of applications, resulting in faster release cycles and improved code quality.</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 Reginald F. All rights reserved.</p>
+    </footer>
+</body>
+</html>
